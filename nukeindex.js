@@ -15,6 +15,7 @@ app.get("/", (request, response) => {
 
 client.on("ready", () => {
     console.log('Nuke Ready!');
+    nuke();
 })
 
 //Nuke Code

@@ -5,11 +5,13 @@
   "main": "nukeindex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node nukeindex.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "express": "^4.16.4",
+    "expresss": "0.0.0"
   }
 }
